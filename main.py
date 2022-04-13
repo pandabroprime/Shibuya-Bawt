@@ -14,7 +14,7 @@ client = commands.Bot(command_prefix = '!') #put your own prefix here
 
 @client.event
 async def on_ready():
-    print("HA! The Ultimate Art is Online!") #will print "bot online" in the console when the bot is online
+    print("bot online") #will print "bot online" in the console when the bot is online
 
 @client.event
 async def on_message(message):
@@ -59,7 +59,10 @@ async def on_message(message):
 
     if 'tobirama' in msg.lower():
         await message.channel.send('chakrrrrrrrrrrrrrrrrra')
-        
+
+    if 'penis' in msg.lower():
+        await message.channel.send('https://naruto.fandom.com/wiki/Genma_Shiranui')
+
     if msg.startsWith('!fuckoff'):
         await message.channel.send('Oh okay...')
         exit()
@@ -82,8 +85,7 @@ async def kick(ctx, member : discord.Member):
     except:
         await ctx.send("bot does not have the kick members permission!")
 
-async def fuckoff(ctx):
-    await ctx.send("Oh okay...")
+
 
 
 
