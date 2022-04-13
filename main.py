@@ -63,7 +63,7 @@ async def on_message(message):
     if 'penis' in msg.lower():
         await message.channel.send('https://naruto.fandom.com/wiki/Genma_Shiranui')
 
-    if msg.startsWith('!fuckoff'):
+    if msg.startswith('!fuckoff'):
         await message.channel.send('Oh okay...')
         exit()
 
