@@ -14,7 +14,7 @@ client = commands.Bot(command_prefix = '!') #put your own prefix here
 
 @client.event
 async def on_ready():
-    print("bot online") #will print "bot online" in the console when the bot is online
+    print("HA! The Ultimate Art is Online!") #will print "bot online" in the console when the bot is online
 
 @client.event
 async def on_message(message):
