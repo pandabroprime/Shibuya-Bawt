@@ -60,7 +60,7 @@ async def on_message(message):
     if 'tobirama' in msg.lower():
         await message.channel.send('chakrrrrrrrrrrrrrrrrra')
         
-    if msg.statsWith('!fuckoff'):
+    if msg.startsWith('!fuckoff'):
         await message.channel.send('Oh okay...')
         exit()
 
