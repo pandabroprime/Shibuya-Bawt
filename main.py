@@ -59,3 +59,32 @@ async def on_message(message):
 
     if 'tobirama' in msg.lower():
         await message.channel.send('chakrrrrrrrrrrrrrrrrra')
+
+    
+
+    
+      
+  
+    
+    
+@client.command()
+async def ping(ctx):
+    await ctx.send("pong!") #simple command so that when you type "!ping" the bot will respond with "pong!"
+
+async def kick(ctx, member : discord.Member):
+    try:
+        await member.kick(reason=None)
+        await ctx.send("kicked "+member.mention) #simple kick command to demonstrate how to get and use member mentions
+    except:
+        await ctx.send("bot does not have the kick members permission!")
+
+async def fuckoff(ctx):
+    await ctx.send("Oh okay...")
+
+
+
+
+
+client.run(os.getenv("TOKEN")) #get your bot token and create a key named `TOKEN` to the secrets panel then paste your bot token as the value. 
+#to keep your bot from shutting down use https://uptimerobot.com then create a https:// monitor and put the link to the website that appewars when you run this repl in the monitor and it will keep your bot alive by pinging the flask server
+#enjoy!
