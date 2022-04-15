@@ -2,6 +2,8 @@ import discord
 import os
 import time
 import random
+from tools import count
+from tools import list
 import discord.ext
 from discord.utils import get
 from discord.ext import commands, tasks
@@ -36,7 +38,7 @@ async def on_message(message):
       await message.channel.send("people should not eat pokemon :\)")
 
     if 'mario' in msg.lower():
-      mQuote = ["I can all", "platforming videogames for the nintendo wii featuring 77 levels where you can", "wahoo", "You'll never be ballin'", "FUCKING BALLIN'", "bruh"]
+      mQuote = list.toList('marioQuotes')
       await message.channel.send('@kirby012#0039 ' + random.choice(mQuote))
 
     if 'sweet' in msg.lower():
@@ -63,16 +65,32 @@ async def on_message(message):
     if 'penis' in msg.lower():
         await message.channel.send('https://naruto.fandom.com/wiki/Genma_Shiranui')
 
+    if 'candace' in msg.lower():
+        await message.channel.send('candace dick fit in your mouth')
+
+    if 'dragon' in msg.lower():
+        await message.channel.send("it's tiring dragon deez balls down your throat")
+
+    if "wendy's" in msg.lower() or "wendys" in msg.lower():
+        await message.channel.send("do you like wendy's balls are in your mouth")
+
+    if 'getting' in msg.lower():
+        await message.channel.send('how about getting some bitches')
+
+    if 'buru nyaa' in msg.lower():
+        await message.channel.send('dori dori')
+
+    if 'friend' in msg.lower():
+        await message.channel.send('https://youtu.be/r6EPMvIhtyA')
+
     if msg.startswith('!fuckoff'):
         await message.channel.send('Oh okay...')
         exit()
 
-    
+    if msg.startwith('!deeznuts'):
+        await message.channel.send(str(count.get('deezNuts')))
 
-    
-      
-  
-    
+
     
 @client.command()
 async def ping(ctx):
@@ -91,6 +109,4 @@ async def kick(ctx, member : discord.Member):
 
 
 
-client.run(os.getenv("TOKEN")) #get your bot token and create a key named `TOKEN` to the secrets panel then paste your bot token as the value. 
-#to keep your bot from shutting down use https://uptimerobot.com then create a https:// monitor and put the link to the website that appewars when you run this repl in the monitor and it will keep your bot alive by pinging the flask server
-#enjoy!
+client.run(os.getenv("TOKEN"))
