@@ -87,7 +87,7 @@ async def on_message(message):
         await message.channel.send('Oh okay...')
         exit()
 
-    if msg.startwith('!deeznuts'):
+    if msg.startswith('!deeznuts'):
         await message.channel.send(str(count.get('deezNuts')))
 
 
