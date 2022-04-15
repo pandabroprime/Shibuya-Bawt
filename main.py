@@ -67,12 +67,15 @@ async def on_message(message):
 
     if 'candace' in msg.lower():
         await message.channel.send('candace dick fit in your mouth')
+        count.increase('deezNuts')
 
     if 'dragon' in msg.lower():
         await message.channel.send("it's tiring dragon deez balls down your throat")
+        count.increase('deezNuts')
 
     if "wendy's" in msg.lower() or "wendys" in msg.lower():
         await message.channel.send("do you like wendy's balls are in your mouth")
+        count.increase('deezNuts')
 
     if 'getting' in msg.lower():
         await message.channel.send('how about getting some bitches')
@@ -87,7 +90,7 @@ async def on_message(message):
         await message.channel.send('Oh okay...')
         exit()
 
-    if msg.startswith('!deeznuts'):
+    if msg.startwith('!deeznuts'):
         await message.channel.send(str(count.get('deezNuts')))
 
 
