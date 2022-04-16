@@ -141,7 +141,7 @@ async def on_message(message):
       shutUp = time.time() + 300
 
     #Sings happy birthday to the mentioned user.
-    if msg.startswith('!happybirthday') and not message.mentions:
+    if msg.startswith('!happybirthday') and message.mentions:
       await message.channel.send("Happy birthday to you!")
       time.sleep(2)
       await message.channel.send("Happy birthday to you!")
