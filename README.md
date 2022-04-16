@@ -5,6 +5,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - buru nyaa  
 - candace  
 - cena  
+- deidara
 - depressed  
 - dragon  
 - friend  
