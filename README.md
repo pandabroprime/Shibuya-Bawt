@@ -5,6 +5,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - buru nyaa  
 - candace  
 - cena  
+- depressed  
 - dragon  
 - friend  
 - gangster  
@@ -18,6 +19,8 @@ This bot is designed to post memes in the discord server. Words that will activa
 - overwatch  
 - pain  
 - penis  
+- ramen
+- rasengan  
 - reshiram  
 - shocker  
 - snartle  
@@ -27,5 +30,8 @@ This bot is designed to post memes in the discord server. Words that will activa
 - valorant  
 
 Specific Commands:
+
 - !fuckoff (Bot goes offline. Not functional when bot is set on auto-deploy.)
+- !happybirthday **@user** (Sings happy birthday to @user)
 - !shutup (Bot will not respond to messages for 5 minutes.)
+- !suggest **{suggestion}** (Add a suggestion to improve the bot!)
