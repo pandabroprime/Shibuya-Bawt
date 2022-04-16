@@ -4,8 +4,10 @@ This bot is designed to post memes in the discord server. Words that will activa
 
 - buru nyaa  
 - candace  
+- cena  
 - dragon  
 - friend  
+- gangster  
 - getting  
 - how did that happen  
 - kabuto  
@@ -13,6 +15,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - madara uchiha  
 - mario  
 - nerf  
+- overwatch  
 - pain  
 - penis  
 - reshiram  
@@ -21,3 +24,8 @@ This bot is designed to post memes in the discord server. Words that will activa
 - sweet  
 - tobirama  
 - wendy's  
+- valorant  
+
+Specific Commands:
+- !fuckoff (Bot goes offline. Not functional when bot is set on auto-deploy.)
+- !shutup (Bot will not respond to messages for 5 minutes.)
