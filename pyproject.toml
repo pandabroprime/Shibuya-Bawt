@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "discord-bot-template"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "shibuya-bot"
+version = "0.9.0"
+description = "Bot created for the Shibuya UG Discord Server"
+authors = ["PandaBroPrime <@PandaBroPrime#2263>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
