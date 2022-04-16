@@ -123,6 +123,18 @@ async def on_message(message):
     if 'valorant' in msg.lower():
       await message.channel.send('ow is better')
 
+    if 'rasengan' in msg.lower():
+      await message.channel.send('https://media.discordapp.net/attachments/847934955275288596/953831647583813663/Screenshot_20220313-205214__01.jpg')
+
+    if 'depressed' in msg.lower():
+      await message.channel.send('https://cdn.discordapp.com/attachments/487383683267821578/926323619699777576/Snaptik_7045864609978289413_mayourin.mp4')
+
+    if 'ramen' in msg.lower():
+      await message.channel.send('https://cdn.discordapp.com/attachments/849818972694118430/955656957149212683/2022-03-21_22-38-21_Trim.mp4')
+
+    if 'deidara' in msg.lower():
+      await message.channel.send('Was I called?')
+
     
 
     
@@ -146,10 +158,19 @@ async def on_message(message):
       time.sleep(2)
       await message.channel.send("Happy birthday to you!")
       time.sleep(2)
-      await message.channel.send("Happy birthday dear" + message.mentions[0].mention)
+      await message.channel.send("Happy birthday dear " + message.mentions[0].mention + "!")
       time.sleep(2)
       await message.channel.send("Happy birthday to you!")
       await message.channel.send('https://tenor.com/view/deidara-naruto-shippuden-naruto-yay-gif-4215383')
+
+    #Add a suggestion to the suggestions.txt file!
+    if msg.startswith('!suggest'):
+      try:
+        s = message.author.name + ": " + msg[9:]
+        list.add(s, 'suggestions')
+        await message.channel.send('Suggestion received!')
+      except:
+        await message.channel.send('Failed to receive suggestion.')
       
 
 
