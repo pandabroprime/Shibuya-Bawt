@@ -48,6 +48,10 @@ async def on_message(message):
   
     msg = message.content
 
+    #No response if message is meant for Music Bot or Mudae Bot.
+    if msg.startswith('#') or msg.startswith('$'):
+      return
+
     #The bot posts certain messages if it sees the following things in a message it reads.
     if 'madara uchiha' in msg.lower():
       await message.channel.send('Top Ten in the Server!')
@@ -99,7 +103,7 @@ async def on_message(message):
       await message.channel.send("do you like wendy's balls are in your mouth")
       count.increase('deezNuts')
 
-    if 'getting' in msg.lower():
+    if "i'm getting" in msg.lower():
       await message.channel.send('how about getting some bitches')
 
     if 'buru nyaa' in msg.lower():
@@ -134,6 +138,15 @@ async def on_message(message):
 
     if 'deidara' in msg.lower():
       await message.channel.send('Was I called?')
+
+    if 'arizona' in msg.lower():
+      await message.channel.send('https://cdn.discordapp.com/attachments/847934404487544882/965645248208453632/Im_From_A_R_I_Z_O_N_A.mp4')
+
+    if 'fire' in msg.lower():
+      await message.channel.send("Trust me Komasan the blue fire's cold")
+
+    if 'the game' in msg.lower():
+      await message.channel.send("https://youtu.be/bGzWicuI8n8")
 
     
 
