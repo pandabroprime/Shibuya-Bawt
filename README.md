@@ -10,8 +10,8 @@ This bot is designed to post memes in the discord server. Words that will activa
 - dragon  
 - friend  
 - gangster  
-- getting  
 - how did that happen  
+- i'm getting
 - kabuto  
 - lugia  
 - madara uchiha  
