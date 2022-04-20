@@ -12,7 +12,7 @@ from discord.ext.commands import has_permissions,  CheckFailure, check
 
 client = discord.Client()
 
-client = commands.Bot(command_prefix = '!', activity = discord.Activity(type=discord.ActivityType.listening, name="shibuya!help"))
+client = commands.Bot(command_prefix = '!')
 
 shutUp = time.time()
 
