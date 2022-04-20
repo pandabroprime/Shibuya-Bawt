@@ -2,6 +2,7 @@
 
 This bot is designed to post memes in the discord server. Words that will activate the bot are:
 
+- arizona  
 - buru nyaa  
 - candace  
 - cena  
