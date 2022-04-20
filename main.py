@@ -12,7 +12,7 @@ from discord.ext.commands import has_permissions,  CheckFailure, check
 
 client = discord.Client()
 
-client = commands.Bot(command_prefix = '!') #put your own prefix here
+client = commands.Bot(command_prefix = '!', activity = discord.Activity(type=discord.ActivityType.listening, name="shibuya!help"))
 
 shutUp = time.time()
 
@@ -184,6 +184,12 @@ async def on_message(message):
         await message.channel.send('Suggestion received!')
       except:
         await message.channel.send('Failed to receive suggestion.')
+
+    if msg.startswith('shibuya!help'):
+      r = open('README.md', 'r')
+      ro = r.read()
+      r.close()
+      await message.channel.send(ro)
       
 
 
