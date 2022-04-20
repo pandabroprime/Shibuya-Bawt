@@ -9,6 +9,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - deidara
 - depressed  
 - dragon  
+- fire
 - friend  
 - gangster  
 - how did that happen  
