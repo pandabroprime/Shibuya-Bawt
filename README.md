@@ -28,6 +28,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - shocker  
 - snartle  
 - sweet  
+- the game  
 - tobirama  
 - wendy's  
 - valorant  
