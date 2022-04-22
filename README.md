@@ -10,7 +10,6 @@ This bot is designed to post memes in the discord server. Words that will activa
 - depressed  
 - dragon  
 - fire
-- friend  
 - gangster  
 - how did that happen  
 - i'm getting
@@ -18,6 +17,7 @@ This bot is designed to post memes in the discord server. Words that will activa
 - lugia  
 - madara uchiha  
 - mario  
+- my friend  
 - nerf  
 - overwatch  
 - pain  
